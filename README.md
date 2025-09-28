@@ -182,23 +182,7 @@ Our models achieve state-of-the-art performance on Sanskrit NLP tasks:
 - Content creation for spiritual/philosophical publications
 - Subtitles and translations for documentaries
 
-## 🗂️ Project Structure
 
-```
-ancient_language_preservation/
-├── 📁 models/              # Pre-trained model files
-├── 📁 data/               # Training and evaluation datasets
-├── 📁 src/                # Core source code
-│   ├── preprocessing/     # Text preprocessing modules
-│   ├── restoration/       # Missing word restoration
-│   ├── translation/       # Translation pipeline
-│   └── evaluation/        # Metrics and evaluation
-├── 📁 notebooks/          # Jupyter notebooks for experiments
-├── 📁 tests/             # Unit and integration tests
-├── 📁 web_app/           # Streamlit application
-├── 📁 docs/              # Documentation
-└── 📁 scripts/           # Utility scripts
-```
 
 ## 🔧 Configuration
 
