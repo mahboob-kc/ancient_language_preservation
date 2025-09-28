@@ -288,7 +288,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Made with ❤️ for preserving ancient wisdom through modern AI**
 
 [⭐ Star this repo](https://github.com/mahboob-kc/ancient_language_preservation) if you find it useful!
 
