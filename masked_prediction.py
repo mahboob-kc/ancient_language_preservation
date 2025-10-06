@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForMaskedLM
 import torch
 
 # Load the model and tokenizer
-model_name = r"C:\Users\hp\Desktop\B-tech\S6\MINI_PROJECT\zancient_language_preservation\models\fine_tuned_indic_bert"
+model_name = r"fine_tuned_indic_bert"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForMaskedLM.from_pretrained(model_name)
 
