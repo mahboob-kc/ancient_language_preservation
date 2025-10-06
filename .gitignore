@@ -1,0 +1,22 @@
+# --- Virtual Environments ---
+myenv/
+venv/
+.env
+
+# --- API Keys ---
+api-keys/
+*.json
+
+# --- Python Cache ---
+__pycache__/
+*.pyc
+
+# --- Streamlit and temp files ---
+*.zip
+*.log
+.DS_Store
+
+# --- Model Checkpoints & Large Files ---
+models/
+results/
+datasets/
