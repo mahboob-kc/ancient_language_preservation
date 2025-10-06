@@ -30,16 +30,8 @@ Sanskrit presents unique computational linguistics challenges:
 
 Our multi-stage pipeline addresses each challenge systematically:
 
-```mermaid
-graph LR
-    A[🏺 Ancient Text] --> B[🔤 Tokenization]
-    B --> C[✂️ Sandhi Analysis]
-    C --> D[🧩 Missing Word Detection]
-    D --> E[🤖 IndicBERT Restoration]
-    E --> F[🌐 mT5 Translation]
-    F --> G[✨ Post-processing]
-    G --> H[📖 Modern Translation]
-```
+<img width="2256" height="1474" alt="Flowchart-modified" src="https://github.com/user-attachments/assets/84b629c9-45d6-4134-bbb5-8c84d054e660" />
+
 
 ### Core Components
 
