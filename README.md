@@ -33,7 +33,7 @@ Our multi-stage pipeline addresses each challenge systematically:
 <img width="2256" height="1474" alt="Flowchart-modified" src="https://github.com/user-attachments/assets/84b629c9-45d6-4134-bbb5-8c84d054e660" />
 
 
-### Core Components
+## Core Components
 
 #### 1. **Intelligent Preprocessing**
 - Custom Sanskrit tokenizer handling devanagari script complexities
