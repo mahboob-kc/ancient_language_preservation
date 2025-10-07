@@ -97,35 +97,7 @@ pip install -r requirements.txt
 python download_models.py
 ```
 
-### Basic Usage
 
-```python
-from sanskrit_translator import SanskritTranslator
-
-# Initialize the translator
-translator = SanskritTranslator(
-    model_name="indicbert-sanskrit",
-    device="cuda" if torch.cuda.is_available() else "cpu"
-)
-
-# Example 1: Restore corrupted manuscript text
-corrupted_text = "धर्मक्षेत्रे कुरुक्षेत्रे समवेता [MASK] [MASK]"
-restored = translator.restore_missing_words(corrupted_text)
-print(f"Restored: {restored}")
-# Output: "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः"
-
-# Example 2: Handle sandhi splitting
-compound_text = "धर्मक्षेत्रे"
-split_text = translator.split_sandhi(compound_text)
-print(f"Split: {split_text}")
-# Output: "धर्म क्षेत्रे"
-
-# Example 3: Complete translation pipeline
-sanskrit_verse = "सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः"
-translation = translator.translate_to_english(sanskrit_verse)
-print(f"Translation: {translation}")
-# Output: "May all beings be happy, may all beings be healthy"
-```
 
 ### Web Interface
 
